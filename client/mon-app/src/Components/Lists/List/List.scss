@@ -1,0 +1,28 @@
+.list{    
+    width: 250px;    
+    padding:.3rem;
+    margin: 80px;
+
+&-header{
+    margin-left:10px;
+    width:236px;
+    display:flex;
+    color:white;
+    background-color: #209CEE;
+    padding:.5rem;
+    
+}
+&-name{
+    font-size: .7rem;
+    flex-grow: 4;
+    text-align: left;
+        
+}
+&-button{
+    padding:.3rem;
+    width: 1px;
+    height: 15px;
+    flex-grow: 1;
+    
+}
+}

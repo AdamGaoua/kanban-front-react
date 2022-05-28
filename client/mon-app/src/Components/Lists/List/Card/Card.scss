@@ -1,0 +1,31 @@
+.card{
+    
+    width:233px;
+    margin-left:10px;
+    background-color: #fff;
+    padding:10px;
+    
+
+    &-container{
+        width:235px;
+        height:110px;
+        display:flex;
+    }
+    &-content{
+        flex-grow:3;
+    }
+    &-title{
+        text-align:left;
+        font-size:.7rem;
+        width:100px;
+    }
+    &-button{
+        
+        width: 21px;
+        height: 23px;
+        flex-grow: 1;
+        align-items: center;
+        margin-bottom:39px;
+        margin-top:10px;
+    }
+}
